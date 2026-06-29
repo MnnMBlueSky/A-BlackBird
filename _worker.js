@@ -37,7 +37,7 @@ const proxyStrategyOrder = ['socks', 'http', 'https', 'turn', 'nat64'];
 const sharedEchDns = 'lido.fi+https://223.5.5.5/dns-query'; //ECHDNS配置
 const dohEndpoints = ['https://cloudflare-dns.com/dns-query', 'https://dns.google/dns-query'];
 const dohNatEndpoints = ['https://cloudflare-dns.com/dns-query', 'https://dns.google/resolve'];
-const proxyIpAddrs = {EU: 'ProxyIP.DE.CMLiussss.net', AS: 'ProxyIP.SG.CMLiussss.net', JP: 'ProxyIP.JP.CMLiussss.net', US: 'pyip.ygkkk.dpdns.org'};//分区域proxyip
+const proxyIpAddrs = {EU: 'ProxyIP.US.CMLiussss.net', AS: 'ProxyIP.SG.CMLiussss.net', JP: 'ProxyIP.JP.CMLiussss.net', US: 'pyip.ygkkk.dpdns.org'};//分区域proxyip
 const finallyProxyHost = 'ProxyIP.CMLiussss.net';//兜底proxyip
 // 订阅和面板使用的优选ip地址，可支持ip:port#name格式
 const ipListAll = ["172.64.154.125", "104.18.39.123", "172.64.145.18", "104.18.42.218", "104.18.33.131", "172.64.145.38", "172.64.145.202", "104.18.42.151"];
