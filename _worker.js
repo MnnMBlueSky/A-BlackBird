@@ -25,7 +25,7 @@ const maxChunkLen = 64 * 1024;        // 64KB
 const flushTime = 10;                 // 10ms
 // ---------------------------------------------------------------------------------
 /** SS AEAD加密时每批并发处理的payload分片数量，length加密开销低，会随payload一起提交。*/
-const ssAeadEncryptCount = 1010101010;
+const ssAeadEncryptCount = 4;
 // ---------------------------------------------------------------------------------
 /**- **警告**: worker最大支持6，超过6没意义*/
 let concurrency = 4;//socket获取并发数
